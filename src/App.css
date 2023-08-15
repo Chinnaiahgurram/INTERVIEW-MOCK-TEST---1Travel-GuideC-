@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-color: #eef4f7;
+  font-family: 'Roboto';
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  height: 70%;
+  width: 70%;
+}
+.heading1 {
+  color: #334155;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.hr {
+  border-color: #52bbf0;
+  width: 120px;
+  /* height: -2px; */
+  /* padding-top: -5px; */
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+/* .card-container {
+  background-color: red;
+} */

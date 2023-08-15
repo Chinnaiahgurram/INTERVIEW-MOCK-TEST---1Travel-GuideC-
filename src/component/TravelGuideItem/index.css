@@ -1,0 +1,30 @@
+.item-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-self: flex-start;
+  /* flex-wrap: wrap; */
+  font-family: 'Roboto';
+}
+.image {
+  width: 400px;
+  height: 150px;
+}
+.name {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description {
+  color: #64748b;
+  font-size: 16px;
+}
+.card-container {
+  background-color: white;
+
+  height: 300px;
+  width: 400px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 0px 5px white;
+}
